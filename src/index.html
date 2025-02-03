@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Landing Page</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header
+      class="px-5 pb-24 bg-slate-50 dark:bg-slate-950 text-slate-950 dark:text-slate-50 sm:px-8 md:px-14"
+    >
+      <!-- Header Nav -->
+      <nav
+        class="flex items-start justify-between gap-12 w-full py-10 md:py-14"
+      >
+        <img
+          class="bookmark-logo w-32 md:w-40 object-contain"
+          src="./images/logo-bookmark-dark.svg"
+          alt="bookmark-logo"
+        />
+        <div
+          class="flex flex-wrap gap-5 text-xs font-bold text-slate-500 dark:text-slate-300 tracking-wider sm:items-center sm:flex-nowrap md:text-sm md:gap-10"
+        >
+          <ul class="flex flex-wrap gap-5 sm:flex-nowrap md:gap-10">
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+
+          <button
+            class="py-1 px-3 rounded-sm bg-red-600 font-medium text-slate-100 shadow-md border-none md:py-2 md:px-5"
+          >
+            Login
+          </button>
+
+          <button
+            class="py-1 px-3 theme-toggler bg-blue-700 font-medium rounded-sm shadow-md text-slate-50 md:py-2 md:px-5"
+          >
+            Light
+          </button>
+        </div>
+      </nav>
+
+      <!-- Header Content -->
+      <div
+        class="flex flex-col-reverse items-center gap-5 mt-10 md:flex-row md:gap-20"
+      >
+        <div class="w-full space-y-6 md:w-1/2 text-center md:text-start">
+          <h1
+            class="text-4xl font-bold text-slate-900 dark:text-slate-50 leading-snug"
+          >
+            A Simple Bookmark Manager
+          </h1>
+          <p class="font-medium text-slate-400 dark:text-slate-300">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            nisi molestiae aspernatur deleniti enim repellat omnis aperiam
+            quaerat.
+          </p>
+          <div class="flex gap-5 justify-center md:justify-start">
+            <button
+              class="py-2 px-5 rounded-sm shadow-lg text-sm font-medium text-slate-50 bg-blue-700"
+            >
+              Get it on Chrome
+            </button>
+            <button
+              class="py-2 px-5 rounded-sm shadow-lg text-sm font-medium text-slate-800 dark:text-slate-200 bg-gray-300 dark:bg-slate-800"
+            >
+              Get in on Firefox
+            </button>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img
+            class="w-full object-contain"
+            src="./images/illustration-hero.svg"
+            alt="illustration"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main
+      class="bg-slate-50 dark:bg-slate-950 text-slate-950 dark:text-slate-50 space-y-28"
+    >
+      <!-- Section 01 -->
+      <section class="px-5 flex flex-col items-center gap-20 sm:px-14">
+        <div class="text-center w-full max-w-md">
+          <h2 class="text-3xl mb-8 font-semibold">Features</h2>
+          <p class="font-medium text-slate-400 dark:text-slate-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            soluta eius necessitatibus voluptate molestias nobis. Animi tempore
+            inventore quasi sapiente aspernatur!
+          </p>
+        </div>
+
+        <div
+          class="flex justify-between w-full max-w-lg font-medium text-slate-500 dark:text-slate-200 pb-4 border-b dark:border-opacity-5"
+        >
+          <div>Simple Bookmaking</div>
+          <div>Speedy Searching</div>
+          <div>Easy Sharing</div>
+        </div>
+
+        <div class="flex flex-col items-center gap-24 md:flex-row">
+          <img
+            class="w-full object-contain md:w-1/2"
+            src="./images/illustration-features-tab-1.svg"
+            alt="illustration"
+          />
+          <div class="w-full space-y-8 md:w-1/2 text-center md:text-start">
+            <h2 class="text-3xl font-semibold">Bookmark in one click</h2>
+            <p
+              class="max-w-md font-medium text-slate-400 dark:text-slate-300 mx-auto md:mx-0"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
+              quam dignissimos dolor exercitationem praesentium porro architecto
+              iusto, in sequi odio facilis.
+            </p>
+            <button
+              class="px-5 py-2 font-medium text-sm rounded-sm text-slate-50 bg-blue-700"
+            >
+              More Info
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 02 -->
+      <section class="px-5 flex flex-col items-center gap-16 sm:px-14">
+        <div class="w-full max-w-md text-center">
+          <h2 class="text-3xl font-semibold mb-8">Download the extension</h2>
+          <p class="text-slate-400 dark:text-slate-300 font-medium">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+            repellat omnis eum aspernatur qui.
+          </p>
+        </div>
+
+        <div
+          class="w-full max-w-3xl h-auto flex flex-col justify-between items-center gap-16 md:gap-0 md:flex-row md:h-[450px]"
+        >
+          <div
+            class="w-60 self-center shadow-lg rounded-lg dark:bg-slate-800 md:self-start"
+          >
+            <div
+              class="text-center font-medium p-8 border-b-2 border-dashed dark:border-slate-700 flex flex-col items-center gap-8"
+            >
+              <img
+                class="w-28 object-contain"
+                src="./images/logo-chrome.svg"
+                alt="chrome-logo"
+              />
+              <div>
+                <h3 class="text-xl mb-2">Add to Chrome</h3>
+                <p class="text-sm text-slate-400 dark:text-slate-300">
+                  Minimum version 62
+                </p>
+              </div>
+            </div>
+            <div class="p-6">
+              <button
+                class="py-2 w-full bg-blue-700 text-slate-50 rounded-sm text-sm"
+              >
+                Add & Install Extention
+              </button>
+            </div>
+          </div>
+
+          <div class="w-60 shadow-lg rounded-lg dark:bg-slate-800">
+            <div
+              class="text-center font-medium p-8 border-b-2 border-dashed dark:border-slate-700 flex flex-col items-center gap-8"
+            >
+              <img
+                class="w-28 object-contain"
+                src="./images/logo-firefox.svg"
+                alt="Firefox"
+              />
+              <div>
+                <h3 class="text-xl mb-2">Add to Firefox</h3>
+                <p class="text-sm text-slate-400 dark:text-slate-300">
+                  Minimum version 65
+                </p>
+              </div>
+            </div>
+            <div class="p-6">
+              <button
+                class="py-2 w-full bg-blue-700 text-slate-50 rounded-sm text-sm"
+              >
+                Add & Install Extention
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="w-60 self-center shadow-lg rounded-lg dark:bg-slate-800 md:self-end"
+          >
+            <div
+              class="text-center font-medium p-8 border-b-2 border-dashed dark:border-slate-700 flex flex-col items-center gap-8"
+            >
+              <img
+                class="w-28 object-contain"
+                src="./images/logo-opera.svg"
+                alt="opera-logo"
+              />
+              <div>
+                <h3 class="text-xl mb-2">Add to Opera</h3>
+                <p class="text-sm text-slate-400 dark:text-slate-300">
+                  Minimum version 45
+                </p>
+              </div>
+            </div>
+            <div class="p-6">
+              <button
+                class="py-2 w-full bg-blue-700 text-slate-50 rounded-sm text-sm"
+              >
+                Add & Install Extention
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 03 -->
+      <section
+        class="px-5 w-full max-w-xl fle mx-auto flex flex-col items-center gap-10 sm:px-14"
+      >
+        <div class="w-full text-center">
+          <h2 class="text-3xl font-semibold mb-5 leading-snug">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-slate-400 dark:text-slate-300 font-medium">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            repudiandae consequuntur et ipsam commodi odio!
+          </p>
+        </div>
+
+        <div class="w-full font-medium text-slate-600 dark:text-slate-200">
+          <div
+            class="flex justify-between border-y-2 dark:border-slate-800 py-4"
+          >
+            <div>How can I request a new browser?</div>
+            <img
+              class="w-4 object-contain"
+              src="./images/icon-arrow.svg"
+              alt="arrow-icon"
+            />
+          </div>
+
+          <div
+            class="flex justify-between border-b-2 dark:border-slate-800 py-4"
+          >
+            <div>Lorem ipsum dolor sit amet?</div>
+            <img
+              class="w-4 object-contain"
+              src="./images/icon-arrow.svg"
+              alt="arrow-icon"
+            />
+          </div>
+
+          <div
+            class="flex justify-between border-b-2 dark:border-slate-800 py-4"
+          >
+            <div>Lorem ipsum dolor sit ?</div>
+            <img
+              class="w-4 object-contain"
+              src="./images/icon-arrow.svg"
+              alt="arrow-icon"
+            />
+          </div>
+
+          <div
+            class="flex justify-between border-b-2 dark:border-slate-800 py-4"
+          >
+            <div>What is Bookmark?</div>
+            <img
+              class="w-4 object-contain"
+              src="./images/icon-arrow.svg"
+              alt="arrow-icon"
+            />
+          </div>
+        </div>
+        <button
+          class="px-5 py-2 font-medium text-sm rounded-sm text-slate-50 bg-blue-700"
+        >
+          More Info
+        </button>
+      </section>
+
+      <!-- Section 04 -->
+      <section class="px-5 py-10 bg-sky-700 text-slate-50 gap-10 sm:px-14">
+        <div class="w-full max-w-xs mx-auto text-center space-y-8">
+          <div class="text-sm tracking-widest font-medium">
+            35000+ ALREADY JOINED
+          </div>
+          <h3 class="text-2xl font-semibold">
+            Stay up-to-date with what we're doing
+          </h3>
+
+          <div class="flex gap-3 items-center">
+            <input
+              class="flex-1 h-9 indent-3 rounded-sm text-sm text-slate-900 outline-none"
+              type="text"
+              placeholder="Enter your email address"
+            />
+            <button
+              class="px-5 py-2 font-medium text-sm rounded-sm text-slate-50 bg-red-500"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="px-5 py-8 bg-slate-900 text-slate-50 sm:px-14 sm:py-10">
+      <nav class="flex justify-between items-start gap-9 md:items-center">
+        <div class="flex flex-wrap gap-5 sm:flex-nowrap md:gap-10">
+          <img
+            class="bookmark-logo object-contain w-32 md:w-40"
+            src="./images/logo-bookmark-dark.svg"
+            alt="bookmark-logo"
+          />
+          <ul
+            class="flex flex-wrap items-center gap-5 leading-relaxed text-xs font-medium sm:flex-nowrap md:text-sm md:gap-8"
+          >
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="flex gap-4 md:gap-6">
+          <img
+            class="w-4 object-contain md:w-5"
+            src="./images/icon-facebook.svg"
+            alt="facebook-icon"
+          />
+          <img
+            class="w-4 object-contain md:w-5"
+            src="./images/icon-twitter.svg"
+            alt="twitter-icon"
+          />
+        </div>
+      </nav>
+    </footer>
+
+    <!-- Javascript for dark mode -->
+    <script>
+      const themeTogglerBtnEl = document.querySelector(".theme-toggler");
+      const logoImgEl = document.querySelector(".bookmark-logo");
+
+      themeTogglerBtnEl.addEventListener("click", () => {
+        const htmlEl = document.documentElement;
+
+        if (htmlEl.className === "dark") {
+          htmlEl.className = "light";
+          themeTogglerBtnEl.textContent = "Dark";
+          logoImgEl.setAttribute("src", "./images/logo-bookmark.svg");
+        } else {
+          htmlEl.className = "dark";
+          themeTogglerBtnEl.textContent = "Light";
+          logoImgEl.setAttribute("src", "./images/logo-bookmark-dark.svg");
+        }
+      });
+    </script>
+  </body>
+</html>
